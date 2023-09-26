@@ -9,6 +9,8 @@ from .models import User
 from .serializers import UserSerializer , UserSerializerAge
 from django.http.response import JsonResponse
 from . import serializers
+def home(request):
+    return HttpResponse('Sbaa7 M5alta')
 def api(request):
     return HttpResponse('hello from api project')
 # Create your views here.
